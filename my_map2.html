@@ -1,0 +1,4288 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&key=AIzaSyDfegsNIdfVCYW7E-TKiK8t8j3SoMmbRWw"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 13,
+            center: new google.maps.LatLng(22.319400, 114.169400)
+        });
+
+        var marker_icon_FF0000 = {
+            url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAYAAACwaJKDAAAABmJLR0QA/wD/AP+gvaeTAAACBklEQVRIia3VzUtUURgH4GdG/AiyZZShtWgXUbSIFtGqRYtqWRLhXyBYf0K6MaJQ2gRtayHtijYpleHKSCgIcRHoIiOSKEzLKea0OOeqTfPlzPzg5Qwz9zz3nXPvPTeneo7gNA4gjyI+Ygbva8z9L2cxi9BHOE+4msY+gliz6biayWE0R7GfMEcoEkJJzRH6CbnY+WiaVxEc6yY8KQOVq8eE7tj1WCV4qIswUyeY1QyhK8JDpWAP1m7vEMzqTkTXkrOZkYOEQoNogXAowiPE2wQuDqC9nktZJu0YSE72XRs2phrsMqup2OkG2vLpRB19DXaZJc3vQHv294Um0e3z8yigsNQkmuYXUMie5/npJtE0fz55YLiXsNHELdUbV2B4+4n2Y/Vmg+itCK4m558MdhBe7hCcJnRGdLDS0ox3E17XCb4h7IngeLX1zuFhD2G5BriytY4Tqmx9WXbh3Tnl99KsLkdwAbtrgVmO4/eDCuCkzd3/TL1glru9hF8lYJFwMoKPdgrCXqzfL0GfR7CIo42gcO9YCXopolONgnAC4W0Cv9l8dVxpBoWFGwmdiOC6Glc8X+3HlKeT6cOzOLzAjyaaBBc602ZzOHZ6vVkQ9kl7Qi6ip1qBwpdrEfwjPnFVU8+awuKrOC7hZ6vQlQ9baM3Ui379HsfVVqKf07jcSvRTGhfrOfgvIP3ECS77BDoAAAAASUVORK5CYII=",
+            labelOrigin: new google.maps.Point(10, 11)
+        };
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310026, 114.224748),
+            label: "1 HING YIP ST CAMELPAINT CENTRE, 64 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309691, 114.224508),
+            label: "4 HING YIP ST, 49 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309691, 114.224515),
+            label: "4 HING YIP ST, 49 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311835, 114.221452),
+            label: "45 HUNG TO RD WANG KWONG INDUSTRIAL BUILDING, 45 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311824, 114.221440),
+            label: "45 HUNG TO RD WANG KWONG INDUSTRIAL BUILDING, 45 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311659, 114.221645),
+            label: "47 HUNG TO RD CAPELLA HTR, 40 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311659, 114.221645),
+            label: "47 HUNG TO RD CAPELLA HTR, 40 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311426, 114.221901),
+            label: "51 HUNG TO RD PAUL Y. CENTRE, 27 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311365, 114.221836),
+            label: "51 HUNG TO RD PAUL Y. CENTRE, 27 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311189, 114.222178),
+            label: "53 HUNG TO RD SPECTRUM TOWER, 26 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311173, 114.222158),
+            label: "53 HUNG TO RD SPECTRUM TOWER, 26 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310799, 114.222449),
+            label: "55 HUNG TO RD WINNER FACTORY BUILDING, 45 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310791, 114.222440),
+            label: "55 HUNG TO RD WINNER FACTORY BUILDING, 45 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310604, 114.222993),
+            label: "57 HUNG TO RD NANYANG PLAZA, 28 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310604, 114.222993),
+            label: "57 HUNG TO RD NANYANG PLAZA, 28 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310171, 114.222959),
+            label: "59 HUNG TO RD PANG KWONG BUILDING, 35 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310162, 114.222948),
+            label: "59 HUNG TO RD PANG KWONG BUILDING, 35 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310041, 114.223075),
+            label: "61 HUNG TO RD TAI FUNG INDUSTRIAL BUILDING, 33 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310027, 114.223059),
+            label: "61 HUNG TO RD TAI FUNG INDUSTRIAL BUILDING, 33 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309827, 114.223289),
+            label: "63/65 HUNG TO RD LUCKY FACTORY BUILDING, 45 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309853, 114.223268),
+            label: "63/65 HUNG TO RD LUCKY FACTORY BUILDING, 45 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309182, 114.223852),
+            label: "71 HUNG TO RD THE RAYS, 34 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309211, 114.223859),
+            label: "71 HUNG TO RD THE RAYS, 34 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308919, 114.224147),
+            label: "73/75 HUNG TO RD KOHO, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308920, 114.224147),
+            label: "73/75 HUNG TO RD KOHO, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308674, 114.224368),
+            label: "77 HUNG TO RD MILKYWAY BUILDING, 51 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308520, 114.224526),
+            label: "79 HUNG TO RD KRAS ASIA INDUSTRIAL BUILDING, 48 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308521, 114.224527),
+            label: "79 HUNG TO RD KRAS ASIA INDUSTRIAL BUILDING, 48 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308347, 114.224662),
+            label: "81 HUNG TO RD CONTEMPO PLACE, 40 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308347, 114.224662),
+            label: "81 HUNG TO RD CONTEMPO PLACE, 40 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307866, 114.225003),
+            label: "87 HUNG TO RD YUE XIU INDUSTRIAL BUILDING, 57 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307866, 114.225003),
+            label: "87 HUNG TO RD YUE XIU INDUSTRIAL BUILDING, 57 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311708, 114.220739),
+            label: "40 HUNG TO RD MORLITE BUILDING, 53 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311549, 114.220904),
+            label: "42 HUNG TO RD TREASURE CENTRE, 27 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311597, 114.220969),
+            label: "42 HUNG TO RD TREASURE CENTRE, 27 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311187, 114.221333),
+            label: "44/46 HUNG TO RD CENTURY CENTRE, 40 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311187, 114.221333),
+            label: "44/46 HUNG TO RD CENTURY CENTRE, 40 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310596, 114.221979),
+            label: "48 HUNG TO RD, 58 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310414, 114.222020),
+            label: "50 HUNG TO RD HOUSE OF CORONA, 58 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310139, 114.222265),
+            label: "54 HUNG TO RD KING WAN INDUSTRIAL BUILDING, 58 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310000, 114.222388),
+            label: "56 HUNG TO RD HKI BUILDING, 58 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309881, 114.222516),
+            label: "58 HUNG TO RD CAREER AND KENSON INDUSTRIAL MANSION, 53 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309644, 114.222688),
+            label: "60 HUNG TO RD HUNG FUK FACTORY BUILDING, 52 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309517, 114.222803),
+            label: "62 HUNG TO RD HUNG MOU INDUSTRIAL BUILDING, 43 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309517, 114.222803),
+            label: "62 HUNG TO RD HUNG MOU INDUSTRIAL BUILDING, 43 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309366, 114.222912),
+            label: "64 HUNG TO RD, 59 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309005, 114.223231),
+            label: "48 HOI YUEN RD WESTLEY SQUARE, 25 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309005, 114.223231),
+            label: "48 HOI YUEN RD WESTLEY SQUARE, 25 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308838, 114.223403),
+            label: "70 HUNG TO RD LEE ON INDUSTRIAL BUILDING, 45 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308794, 114.223320),
+            label: "70 HUNG TO RD LEE ON INDUSTRIAL BUILDING, 45 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308716, 114.223512),
+            label: "72 HUNG TO RD EVERWIN CENTRE, 31 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308596, 114.223620),
+            label: "74 HUNG TO RD BENSON TOWER, 25 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308654, 114.223694),
+            label: "74 HUNG TO RD BENSON TOWER, 25 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308452, 114.223748),
+            label: "76 HUNG TO RD JOINT VENTURE FACTORY BUILDING, 42 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308424, 114.223721),
+            label: "76 HUNG TO RD JOINT VENTURE FACTORY BUILDING, 42 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308210, 114.223962),
+            label: "80 HUNG TO RD HUNG TO INDUSTRIAL BUILDING, 40 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308183, 114.223926),
+            label: "80 HUNG TO RD HUNG TO INDUSTRIAL BUILDING, 40 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308089, 114.224071),
+            label: "82 HUNG TO RD STORE FRIENDLY TOWER, 53 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308089, 114.224071),
+            label: "82 HUNG TO RD STORE FRIENDLY TOWER, 53 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307913, 114.224448),
+            label: "86 HUNG TO RD, 52 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307913, 114.224448),
+            label: "86 HUNG TO RD, 52 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307763, 114.224581),
+            label: "88 HUNG TO RD RAY CENTRE, 32 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307763, 114.224581),
+            label: "88 HUNG TO RD RAY CENTRE, 32 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307606, 114.224694),
+            label: "90 HUNG TO RD, 58 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308716, 114.223512),
+            label: "72 HUNG TO RD EVERWIN CENTRE, 31 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307196, 114.223140),
+            label: "2 WING YIP ST LU PLAZA, 26 yrs, sub 28",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307248, 114.223172),
+            label: "2 WING YIP ST LU PLAZA, 26 yrs, sub 28",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.306828, 114.222660),
+            label: "6 WING YIP ST HOI BUN INDUSTRIAL BUILDING, 42 yrs, sub 28",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311754, 114.220044),
+            label: "171 WAI YIP ST WAI YIP INDUSTRIAL BUILDING, 53 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311594, 114.220219),
+            label: "179 WAI YIP ST TAK LUNG INDUSTRIAL BUILDING, 51 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311419, 114.220359),
+            label: "181 WAI YIP ST YIN DA COMMERCIAL BUILDING, 42 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310985, 114.220790),
+            label: "185/187 WAI YIP ST HENG SANG INDUSTRIAL BUILDING, 53 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310712, 114.221046),
+            label: "189 WAI YIP ST JUMBO INDUSTRIAL BUILDING, 52 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310084, 114.221593),
+            label: "201 WAI YIP ST SIU FU FACTORY BUILDING, 58 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309927, 114.221691),
+            label: "203 WAI YIP ST TUNGTEX BUILDING, 46 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309790, 114.221814),
+            label: "205 WAI YIP ST MOW HING FACTORY BUILDING, 53 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309514, 114.222115),
+            label: "209&211 WAI YIP ST FU HOP FACTORY BUILDING, 58 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309304, 114.222408),
+            label: "PIONEER IND BUILDING 213 WAI YIP ST, 50 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308517, 114.223108),
+            label: "221 WAI YIP ST MAI TAK INDUSTRIAL BUILDING, 53 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311546, 114.219396),
+            label: "146 WAI YIP ST MAI GAR INDUSTRIAL BUILDING, 51 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311283, 114.219734),
+            label: "154 WAI YIP ST TAK SHUN INDUSTRIAL BUILDING, 53 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311187, 114.219817),
+            label: "156 WAI YIP ST, 56 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311061, 114.219894),
+            label: "158 WAI YIP ST KT ONE, 51 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310973, 114.220006),
+            label: "160 WAI YIP ST MAI HONG INDUSTRIAL BUILDING, 45 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310866, 114.220099),
+            label: "162 WAI YIP ST WAH HONG INDUSTRIAL BUILDING, 53 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310809, 114.220258),
+            label: "164 WAI YIP ST SITOY TOWER, 28 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310650, 114.220285),
+            label: "166 WAI YIP ST KARIN BUILDING, 44 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310544, 114.220379),
+            label: "168 WAI YIP ST, 57 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310438, 114.220471),
+            label: "170 WAI YIP ST FUNG YIP INDUSTRIAL BUILDING, 41 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310331, 114.220563),
+            label: "172 WAI YIP ST CANTAKE FACTORY BUILDING, 41 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310165, 114.220681),
+            label: "174 WAI YIP ST KIN TAK FUNG INDUSTRIAL BUILDING, 53 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309041, 114.221547),
+            label: "182 WAI YIP ST KWUN TONG HARBOUR PLAZA, 35 yrs, sub 35",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314456, 114.217207),
+            label: "5 LAI YIP ST CHEN YIP INDUSTRIAL BUILDING, 53 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314728, 114.217573),
+            label: "9 LAI YIP ST TUNG LEE INDUSTRIAL BUILDING, 51 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314844, 114.217762),
+            label: "11 LAI YIP ST UNITED OVERSEAS PLAZA, 55 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314199, 114.217920),
+            label: "46 LAI YIP ST DRACO INDUSTRIAL BUILDING, 42 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316542, 114.214702),
+            label: "89 WAI YIP ST PROSPERITY INDUSTRIAL BUILDING, 48 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316442, 114.214811),
+            label: "91 WAI YIP ST JC TOWER, 49 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316296, 114.214969),
+            label: "95 WAI YIP ST WING YING INDUSTRIAL BUILDING, 52 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316224, 114.215049),
+            label: "97 WAI YIP ST CHILCOTT INDUSTRIAL BUILDING, 44 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316120, 114.215157),
+            label: "99 WAI YIP ST LANTON INDUSTRIAL BUILDING, 56 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316006, 114.215285),
+            label: "101 WAI YIP ST IW HOTEL, 28 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315934, 114.215365),
+            label: "101A WAI YIP ST FEN HING INDUSTRIAL BUILDING, 45 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315848, 114.215461),
+            label: "103 WAI YIP ST PETER LEUNG INDUSTRIAL BUILDING, 48 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315763, 114.215557),
+            label: "105 WAI YIP ST CCF BUILDING, 41 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315327, 114.216032),
+            label: "111 WAI YIP ST HECNY CENTRE, 43 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313939, 114.217833),
+            label: "CHEUNG FAI INDUSTRIAL BUILDING 133 WAI YIP ST, 54 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313742, 114.217961),
+            label: "135 WAI YIP ST TAKAD CENTRE, 45 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313647, 114.218064),
+            label: "137 WAI YIP ST PAN ASIA CENTRE, 29 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313421, 114.217570),
+            label: "116 WAI YIP ST UNION INDUSTRIAL BUILDING, 52 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313323, 114.217676),
+            label: "118 WAI YIP ST GALAXY PUBLISHING HOUSE, 57 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313228, 114.217772),
+            label: "120 WAI YIP ST KWUN KEE TAILOR INDUSTRIAL CENTRE, 45 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313097, 114.217955),
+            label: "122/124 WAI YIP ST CHINA TRADE CENTER, 30 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312716, 114.224229),
+            label: "10 TSUN YIP LANE YIP WIN FACTORY BUILDING, 43 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311596, 114.218819),
+            label: "155 HOI BUN RD DAH KEUNG GODOWN, 54 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310978, 114.219334),
+            label: "163 HOI BUN RD, 32 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310829, 114.219462),
+            label: "165 HOI BUN RD SML TOWER, 26 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310600, 114.219640),
+            label: "169 HOI BUN RD, 54 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310386, 114.219817),
+            label: "171 HOI BUN RD D.J. SECURITIES BUILDING, 57 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310240, 114.219934),
+            label: "173 HOI BUN RD D.J. BUILDING, 44 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310086, 114.220060),
+            label: "175 HOI BUN RD INTERNATIONAL INDUSTRIAL BUILDING, 57 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309888, 114.220246),
+            label: "177 HOI BUN RD SEAPOWER INDUSTRIAL CENTRE, 51 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314588, 114.219270),
+            label: "GRANDEUR FACTORY BUILDING 368 KWUN TONG RD, 58 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314453, 114.220091),
+            label: "378 KWUN TONG RD MILLENNIUM CITY 2 JOS TOWER, 24 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313749, 114.220590),
+            label: "380/382 KWUN TONG RD, 52 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314199, 114.220608),
+            label: "380/382 KWUN TONG RD, 56 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313627, 114.221442),
+            label: "388 KWUN TONG RD MILLENNIUM CITY TOWER 1, 25 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313857, 114.221172),
+            label: "388 KWUN TONG RD MILLENNIUM CITY TOWER 1, 25 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313580, 114.221797),
+            label: "388 KWUN TONG RD MILLENNIUM CITY STANDARD CHARTERED TOWER, 25 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313345, 114.222364),
+            label: "396 KWUN TONG RD EVEREST INDUSTRIAL CENTRE, 36 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313401, 114.222870),
+            label: "400 KWUN TONG RD THE GRANDE BUILDING, 42 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313149, 114.223235),
+            label: "404 KWUN TONG RD SELWYN FACTORY BUILDING, 44 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313119, 114.223580),
+            label: "HK TELEPHONE CO LTD TELECOMMUNICATIONS NETWORK URBAN COUNCIL AREA 406 KWUN TONG RD, 59 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313032, 114.223888),
+            label: "6 GINKGO RD FAIRVIEW PARK, 31 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310481, 114.221119),
+            label: "28 YAT SIN ST THE MORRISON, 27 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310496, 114.221082),
+            label: "41 TSUN YIP ST ASSUN PACIFIC CENTRE, 27 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310759, 114.221498),
+            label: "49 TSUN YIP ST FREE TRADE CENTRE, 29 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310298, 114.221561),
+            label: "44 TSUN YIP ST CATIC BUILDING, 27 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311247, 114.223058),
+            label: "58 TSUN YIP ST WIDER INDUSTRIAL BUILDING, 42 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311350, 114.223200),
+            label: "60 TSUN YIP ST TSUN WIN FACTORY BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311465, 114.223312),
+            label: "62 TSUN YIP ST CAPITAL TRADE CENTRE, 28 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311568, 114.223446),
+            label: "64 TSUN YIP ST SOUTH ASIA COMMERCIAL CENTRE, 42 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311626, 114.224657),
+            label: "115 HOW MING ST PO SHAU CENTRE, 26 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311562, 114.224574),
+            label: "115 HOW MING ST PO SHAU CENTRE, 26 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311486, 114.224768),
+            label: "117 HOW MING ST ENTREPOT CENTRE, 29 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311543, 114.224842),
+            label: "117 HOW MING ST ENTREPOT CENTRE, 29 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311259, 114.224873),
+            label: "119/121 HOW MING ST GOOD YEAR INDUSTRIAL BUILDING, 45 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311259, 114.224873),
+            label: "119/121 HOW MING ST GOOD YEAR INDUSTRIAL BUILDING, 45 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311777, 114.223730),
+            label: "106 HOW MING ST CROWN INDUSTRIAL BUILDING, 34 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311751, 114.223697),
+            label: "106 HOW MING ST CROWN INDUSTRIAL BUILDING, 34 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311648, 114.223848),
+            label: "108 HOW MING ST SOUTH ASIA BUILDING, 33 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311648, 114.223848),
+            label: "108 HOW MING ST SOUTH ASIA BUILDING, 33 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311517, 114.223962),
+            label: "110 HOW MING ST HING WIN FACTORY BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311517, 114.223962),
+            label: "110 HOW MING ST HING WIN FACTORY BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311395, 114.224070),
+            label: "112 HOW MING ST UNION BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311395, 114.224070),
+            label: "112 HOW MING ST UNION BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311267, 114.224184),
+            label: "114 HOW MING ST SPEEDY INDUSTRIAL BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311267, 114.224184),
+            label: "114 HOW MING ST SPEEDY INDUSTRIAL BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311055, 114.224372),
+            label: "116/118 HOW MING ST MANNING INDUSTRIAL BUILDING, 46 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311055, 114.224372),
+            label: "116/118 HOW MING ST MANNING INDUSTRIAL BUILDING, 46 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311815, 114.224489),
+            label: "111 HOW MING ST FUTURA PLAZA, 22 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311752, 114.224423),
+            label: "111 HOW MING ST FUTURA PLAZA, 22 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310069, 114.223356),
+            label: "45 HOI YUEN RD YAU LEE CENTRE, 45 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308681, 114.221832),
+            label: "45 HOI YUEN RD YAU LEE CENTRE, 41 yrs, sub 35",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310314, 114.223679),
+            label: "49 HOI YUEN RD APEC PLAZA, 28 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310756, 114.223871),
+            label: "55 HOI YUEN RD HOI LUEN INDUSTRIAL CENTRE BLK B, 38 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310985, 114.223659),
+            label: "55 HOI YUEN RD HOI LUEN INDUSTRIAL CENTRE BLK A, 38 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310518, 114.224091),
+            label: "55 HOI YUEN RD HOI LUEN INDUSTRIAL CENTRE BLK B, 38 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310701, 114.224532),
+            label: "61 HOI YUEN RD AITKEN VANSON CENTRE, 25 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310624, 114.224593),
+            label: "61 HOI YUEN RD AITKEN VANSON CENTRE, 25 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310846, 114.224718),
+            label: "63 HOI YUEN RD FOOK CHEONG BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311049, 114.225061),
+            label: "71 HOI YUEN RD WONG TZE BUILDING, 35 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314617, 114.218696),
+            label: "1 HUNG TO RD, 29 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314668, 114.218616),
+            label: "1 HUNG TO RD, 29 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314094, 114.218837),
+            label: "9 HUNG TO RD KINOX CENTRE, 29 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314077, 114.218788),
+            label: "9 HUNG TO RD KINOX CENTRE, 29 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313673, 114.219419),
+            label: "17 HUNG TO RD FAT LEE INDUSTRIAL BUILDING, 52 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313511, 114.219559),
+            label: "19 HUNG TO RD FULLERTON CENTRE, 27 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313465, 114.219499),
+            label: "19 HUNG TO RD FULLERTON CENTRE, 27 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313367, 114.219722),
+            label: "21 HUNG TO RD, 28 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313317, 114.219661),
+            label: "21 HUNG TO RD INFOTECH CENTRE, 28 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313223, 114.219876),
+            label: "23 HUNG TO RD REMINGTON CENTRE, 27 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313169, 114.219827),
+            label: "23 HUNG TO RD REMINGTON CENTRE, 27 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313103, 114.220039),
+            label: "25 HUNG TO RD WAI KEE INDUSTRIAL BUILDING, 58 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312715, 114.220493),
+            label: "31 HUNG TO RD BILLION TRADE CENTRE, 28 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312647, 114.220422),
+            label: "31 HUNG TO RD BILLION TRADE CENTRE, 28 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312134, 114.221127),
+            label: "41 HUNG TO RD WAH HUNG CENTER, 32 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312012, 114.221256),
+            label: "43 HUNG TO RD HUNG TAT INDUSTRIAL BUILDING, 33 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314235, 114.218112),
+            label: "CLP TRANSFORMER ROOM & STAFF QUARTERS 2A HUNG TO RD, 58 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314107, 114.218148),
+            label: "4 HUNG TO RD H.S. CHAN BUILDING, 58 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313968, 114.218350),
+            label: "6/8 HUNG TO RD LOK KUI INDUSTRIAL BUILDING, 44 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313831, 114.218453),
+            label: "10 HUNG TO RD KNAPWOOD INDUSTRIAL BUILDING, 58 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313724, 114.218540),
+            label: "12 HUNG TO RD GEMMY INDUSTRIAL BUILDING, 45 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313600, 114.218706),
+            label: "16 HUNG TO RD HOUTEX INDUSTRIAL BUILDING, 36 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312995, 114.219370),
+            label: "26 HUNG TO RD WESTIN CENTRE, 25 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313034, 114.219411),
+            label: "26 HUNG TO RD WESTIN CENTRE, 25 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312839, 114.219600),
+            label: "28 HUNG TO RD, 35 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312713, 114.219650),
+            label: "28A HUNG TO RD TAK SING INDUSTRIAL BUILDING, 52 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312519, 114.219952),
+            label: "30 HUNG TO RD & 70/72 HOW MING ST, 53 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312184, 114.220235),
+            label: "34 HUNG TO RD GEE LOK INDUSTRIAL BUILDING, 42 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312042, 114.220433),
+            label: "36 HUNG TO RD KAI CENTRE, 46 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311867, 114.220572),
+            label: "38 HUNG TO RD MICROTRON BUILDING, 53 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309395, 114.223676),
+            label: "50 HOI YUEN RD LEMMI CENTRE, 27 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309395, 114.223676),
+            label: "50 HOI YUEN RD LEMMI CENTRE, 27 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309544, 114.224083),
+            label: "54 HOI YUEN RD HEWLETT CENTRE, 34 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309904, 114.224318),
+            label: "56 HOI YUEN RD GENPLAS FACTORY BUILDING, 58 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310149, 114.225014),
+            label: "60 HOI YUEN RD CAMEL PAINT BUILDING BLK 3, 34 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310149, 114.225014),
+            label: "60 HOI YUEN RD CAMEL PAINT BUILDING BLK 3, 34 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310478, 114.225158),
+            label: "62 HOI YUEN RD CAMEL PAINT BUILDING BLK 1, 42 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310116, 114.225482),
+            label: "62 HOI YUEN RD CAMEL PAINT BUILDING BLK 2, 42 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310778, 114.225459),
+            label: "64 HOI YUEN RD YEN SHENG CENTRE, 28 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310778, 114.225459),
+            label: "64 HOI YUEN RD YEN SHENG CENTRE, 28 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311204, 114.226040),
+            label: "60 TSUN YIP ST TSUN WIN FACTORY BUILDING, 37 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311234, 114.226042),
+            label: "68 HOI YUEN RD KWUN TONG PLAZA, 37 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316905, 114.215206),
+            label: "318 KWUN TONG RD GEE LUEN FACTORY BUILDING, 52 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316666, 114.215434),
+            label: "320/322 KWUN TONG RD IDEAL CENTRE, 57 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316482, 114.215622),
+            label: "324 KWUN TONG RD LICO INDUSTRIAL BUILDING, 57 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316355, 114.215737),
+            label: "326 KWUN TONG RD IND HOTEL, 53 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316242, 114.215887),
+            label: "328 KWUN TONG RD WANDA'S INDUSTRIAL BLDG, 57 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316132, 114.216000),
+            label: "330 KWUN TONG RD AIR GOAL CARGO BUILDING, 32 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316143, 114.216011),
+            label: "330 KWUN TONG RD AIR GOAL CARGO BUILDING, 32 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316024, 114.216135),
+            label: "332 KWUN TONG RD HONG KONG COMMERCIAL DAILY BUILDING, 55 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315876, 114.216370),
+            label: "334/336 KWUN TONG RD KT336, 57 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315719, 114.216557),
+            label: "338 KWUN TONG RD ROOM+ KWUN TONG, 53 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315621, 114.216707),
+            label: "340 KWUN TONG RD JOHNSON INDUSTRIAL MANSION, 52 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315621, 114.216707),
+            label: "340 KWUN TONG RD JOHNSON INDUSTRIAL MANSION, 52 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315508, 114.216944),
+            label: "342/344 KWUN TONG RD CHUAN YUAN FACTORY BUILDING, 57 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313005, 114.222696),
+            label: "95 HOW MING ST WORLD TECH CENTRE, 31 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312918, 114.222660),
+            label: "95 HOW MING ST WORLD TECH CENTRE, 31 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312767, 114.223402),
+            label: "99 HOW MING ST HOW MING FACTORY BUILDING, 53 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312221, 114.224065),
+            label: "105 HOW MING ST GOOD LUCK INDUSTRIAL BUILDING, 42 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312222, 114.224068),
+            label: "105 HOW MING ST GOOD LUCK INDUSTRIAL BUILDING, 42 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312127, 114.224205),
+            label: "107 HOW MING ST KWOK KEE GROUP CENTRE, 50 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312005, 114.224322),
+            label: "109 HOW MING ST WING CHEUNG INDUSTRIAL BUILDING, 35 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311992, 114.224331),
+            label: "109 HOW MING ST WING CHEUNG INDUSTRIAL BUILDING, 35 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312445, 114.219833),
+            label: "68 HOW MING ST SECURE HOUSE, 52 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312840, 114.220370),
+            label: "94/96 HOW MING ST HUNG TO CENTRE, 59 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315199, 114.216183),
+            label: "1 TAI YIP ST HAY NIEN BUILDING, 43 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315189, 114.216173),
+            label: "1 TAI YIP ST HAY NIEN BUILDING, 43 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315344, 114.216382),
+            label: "3 TAI YIP ST WING TAI INDUSTRIAL BUILDING, 51 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315331, 114.216379),
+            label: "3 TAI YIP ST WING TAI INDUSTRIAL BUILDING, 51 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315461, 114.216267),
+            label: "9 TAI YIP ST HO KING FACTORY BUILDING, 52 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315566, 114.216130),
+            label: "11 TAI YIP ST KEVIN WONG DEVELOPMENT BUILDING, 57 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315691, 114.216014),
+            label: "13 TAI YIP ST YAT SANG INDUSTRIAL BUILDING, 52 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315862, 114.215826),
+            label: "WINFUL IND BUILDING 15/17 TAI YIP ST, 44 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315847, 114.215811),
+            label: "17 TAI YIP ST WINFUL INDUSTRIAL BUILDING, 44 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316032, 114.215638),
+            label: "19 TAI YIP ST ON CHEONG FACTORY BUILDING, 53 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316334, 114.215339),
+            label: "23 TAI YIP ST CHEUNG HING INDUSTRIAL BUILDING, 53 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316494, 114.215135),
+            label: "25 TAI YIP ST KO LEUNG INDUSTRIAL BUILDING, 53 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316609, 114.215009),
+            label: "27 TAI YIP ST HUNG SHING INDUSTRIAL BUILDING, 45 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316599, 114.214998),
+            label: "27 TAI YIP ST HUNG SHING INDUSTRIAL BUILDING, 45 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316725, 114.214883),
+            label: "29 TAI YIP ST OCEAN INDUSTRIAL BUILDING, 34 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316717, 114.214874),
+            label: "29 TAI YIP ST OCEAN INDUSTRIAL BUILDING, 34 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312335, 114.218136),
+            label: "143 HOI BUN RD CHINA AEROSPACE CENTRE, 27 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312285, 114.218085),
+            label: "143 HOI BUN RD CHINA AEROSPACE CENTRE, 27 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312066, 114.218464),
+            label: "151 HOI BUN RD KWONG SANG HONG CENTRE, 31 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312087, 114.218482),
+            label: "151 HOI BUN RD KWONG SANG HONG CENTRE, 31 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314013, 114.219650),
+            label: "25 CHONG YIP ST PROSPERITY CENTER, 24 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314058, 114.219685),
+            label: "25 CHONG YIP ST PROSPERITY CENTER, 24 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313800, 114.219271),
+            label: "31 CHONG YIP ST LT TOWER, 58 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314336, 114.219117),
+            label: "36 CHONG YIP ST RICKY CENTRE, 28 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314312, 114.219159),
+            label: "36 CHONG YIP ST RICKY CENTRE, 28 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311892, 114.223640),
+            label: "66 TSUN YIP ST HOWARD FACTORY BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313523, 114.218233),
+            label: "139/141 WAI YIP ST SHIU FAT INDUSTRIAL BUILDING, 36 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313371, 114.218368),
+            label: "143 WAI YIP ST, 58 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313278, 114.218470),
+            label: "145 WAI YIP ST VIET SHING FACTORY BUILDING, 54 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313185, 114.218572),
+            label: "147 WAI YIP ST KIN SANG INDUSTRIAL BUILDING, 55 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313092, 114.218673),
+            label: "149 WAI YIP ST RAINBOW INDUSTRIAL BUILDING, 53 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313000, 114.218774),
+            label: "151 WAI YIP ST KEYSKY INDUSTRIAL BUILDING, 53 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312907, 114.218875),
+            label: "153 WAI YIP ST GRAND BUSINESS PLAZA, 26 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312854, 114.218820),
+            label: "153 WAI YIP ST GRAND BUSINESS PLAZA, 26 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312816, 114.218977),
+            label: "155 WAI YIP ST KIMBALL INDUSTRIAL BUILDING, 53 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312816, 114.218959),
+            label: "155 WAI YIP ST KIMBALL INDUSTRIAL BUILDING, 53 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312673, 114.219124),
+            label: "157/159 WAI YIP ST SOUTH CHINA FTY BUILDING, 53 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312529, 114.219326),
+            label: "161 WAI YIP ST TAMSON PLAZA, 25 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312495, 114.219313),
+            label: "161 WAI YIP ST TAMSON PLAZA, 25 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311870, 114.219831),
+            label: "169 WAI YIP ST JONE MULT INDUSTRIAL BUILDING BLK A, 58 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311981, 114.219980),
+            label: "169 WAI YIP ST JONE MULT INDUSTRIAL BUILDING BLK B, 40 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312941, 114.218100),
+            label: "126 WAI YIP ST VIET LUEN FACTORY BUILDING, 54 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312797, 114.218259),
+            label: "128 WAI YIP ST HONG KONG MANUFACTURING BUILDING, 53 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312653, 114.218418),
+            label: "132 WAI YIP ST KOON WAH MIRROR FACTORY (5TH) INDUSTRIAL BUILDING, 57 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312557, 114.218523),
+            label: "134 WAI YIP ST THE OZONE, 57 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312452, 114.218617),
+            label: "136 WAI YIP ST WING FAT LOONG INDUSTRIAL BUILDING, 44 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312365, 114.218733),
+            label: "138 WAI YIP ST WOO SING KEE INDUSTRIAL BUILDING, 49 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312269, 114.218839),
+            label: "140 WAI YIP ST EASY-PACK INDUSTRIAL BUILDING, 57 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312175, 114.218925),
+            label: "142 WAI YIP ST DARTON TOWER, 52 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309536, 114.225229),
+            label: "15 HING YIP ST CHUNG MEI CENTRE BLK B, 34 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309536, 114.225229),
+            label: "15 HING YIP ST CHUNG MEI CENTRE BLK A, 34 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309536, 114.225229),
+            label: "15 HING YIP ST CHUNG MEI CENTRE BLK B, 34 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314199, 114.217920),
+            label: "46 LAI YIP ST DRACO INDUSTRIAL BUILDING, 42 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316006, 114.215285),
+            label: "101 WAI YIP ST IW HOTEL, 28 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312388, 114.224036),
+            label: "6 TSUN YIP LANE FULLY INDUSTRIAL BUILDING, 36 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312375, 114.224018),
+            label: "6 TSUN YIP LANE FULLY INDUSTRIAL BUILDING, 36 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312524, 114.217927),
+            label: "139 HOI BUN RD SEAVIEW CENTRE, 32 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312481, 114.217864),
+            label: "139 HOI BUN RD SEAVIEW CENTRE, 32 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310647, 114.226557),
+            label: "11 SHING YIP ST WAH SHING CENTRE, 34 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310376, 114.226821),
+            label: "15/17 SHING YIP ST SING WIN FACTORY BUILDING, 43 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310100, 114.227112),
+            label: "19/21 SHING YIP ST SHING YIP INDUSTRIAL BUILDING, 36 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310103, 114.227112),
+            label: "19/21 SHING YIP ST SHING YIP INDUSTRIAL BUILDING, 36 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309698, 114.227011),
+            label: "CLP SUBSTATION 25 SHING YIP ST, 63 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309799, 114.227493),
+            label: "27 SHING YIP ST SUNBEAM CENTRE, 37 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309768, 114.227464),
+            label: "27 SHING YIP ST SUNBEAM CENTRE, 37 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310564, 114.225659),
+            label: "6 SHING YIP ST PROSPERITY PLACE, 27 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310633, 114.225727),
+            label: "6 SHING YIP ST PROSPERITY PLACE, 27 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309547, 114.226730),
+            label: "30 SHING YIP ST WINFUL CENTRE, 31 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309408, 114.226051),
+            label: "18 SHING YIP ST NEW EAST SUN INDUSTRIAL BUILDING, 45 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309704, 114.226508),
+            label: "20 SHING YIP ST EAST SUN INDUSTRIAL BUILDING, 56 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311239, 114.226908),
+            label: "446 KWUN TONG RD KWUN TONG INDUSTRIAL CENTRE PHASE 4, 43 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310952, 114.227284),
+            label: "458 KWUN TONG RD KWUN TONG INDUSTRIAL CENTRE PHASE 3, 44 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310703, 114.227653),
+            label: "470 KWUN TONG RD KWUN TONG INDUSTRIAL CENTRE PHASE 2, 44 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310474, 114.228060),
+            label: "484 KWUN TONG RD KWUN TONG INDUSTRIAL CENTRE PHASE 1, 45 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309216, 114.225516),
+            label: "21 HING YIP ST MING SANG INDUSTRIAL BUILDING, 48 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309302, 114.225433),
+            label: "21 HING YIP ST MING SANG INDUSTRIAL BUILDING, 51 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309077, 114.225639),
+            label: "23 HING YIP ST PO YIP BUILDING, 53 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309074, 114.225666),
+            label: "23 HING YIP ST PO YIP BUILDING, 53 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308631, 114.226009),
+            label: "31 HING YIP ST HING YIP FACTORY BUILDING, 38 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308660, 114.225987),
+            label: "31 HING YIP ST HING YIP FACTORY BUILDING, 38 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308532, 114.225374),
+            label: "20 HING YIP ST UNION HING YIP FACTORY BUILDING, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308521, 114.225361),
+            label: "20 HING YIP ST UNION HING YIP FACTORY BUILDING, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310647, 114.226556),
+            label: "11 SHING YIP ST WAH SHING CENTRE, 34 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310384, 114.226810),
+            label: "15/17 SHING YIP ST SING WIN FACTORY BUILDING, 43 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309607, 114.225630),
+            label: "16 SHING YIP ST EAST SUN INDUSTRIAL CENTRE, 46 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309547, 114.226730),
+            label: "30 SHING YIP ST WINFUL CENTRE, 31 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308913, 114.226140),
+            label: "59 KING YIP ST KING YIP FACTORY BUILDING, 46 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308913, 114.226141),
+            label: "59 KING YIP ST KING YIP FACTORY BUILDING, 46 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309088, 114.226367),
+            label: "61/63 KING YIP ST LIVEN HOUSE, 45 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309265, 114.226596),
+            label: "65/67 KING YIP ST KING WIN FACTORY BUILDING, 43 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309265, 114.226596),
+            label: "65/67 KING YIP ST KING WIN FACTORY BUILDING, 43 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309335, 114.226918),
+            label: "69/71 KING YIP ST LEVER TECH CENTRE, 28 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309335, 114.226918),
+            label: "69/71 KING YIP ST LEVER TECH CENTRE, 28 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310069, 114.223356),
+            label: "45 HOI YUEN RD YAU LEE CENTRE, 45 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310192, 114.223517),
+            label: "47 HOI YUEN RD HIGH WIN FACTORY BUILDING, 42 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310192, 114.223517),
+            label: "47 HOI YUEN RD HIGH WIN FACTORY BUILDING, 42 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310846, 114.224718),
+            label: "63 HOI YUEN RD FOOK CHEONG BUILDING, 43 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311035, 114.225038),
+            label: "71 HOI YUEN RD WONG TZE BUILDING, 35 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311506, 114.225420),
+            label: "77 HOI YUEN RD YIP FAT FACTORY BUILDING PHASE 1, 45 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311506, 114.225420),
+            label: "77 HOI YUEN RD YIP FAT FACTORY BUILDING PHASE 1, 45 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309541, 114.224083),
+            label: "54 HOI YUEN RD HEWLETT CENTRE, 34 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310293, 114.225324),
+            label: "62 HOI YUEN RD CAMEL PAINT BUILDING BLK 2, 42 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312310, 114.220937),
+            label: "37/39 HUNG TO RD HUNG TAI INDUSTRIAL BUILDING, 32 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312287, 114.220912),
+            label: "37/39 HUNG TO RD HUNG TAI INDUSTRIAL BUILDING, 32 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312014, 114.221258),
+            label: "43 HUNG TO RD HUNG TAT INDUSTRIAL BUILDING, 33 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313578, 114.218684),
+            label: "16 HUNG TO RD HOUTEX INDUSTRIAL BUILDING, 36 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312812, 114.219571),
+            label: "28 HUNG TO RD, 35 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311838, 114.219136),
+            label: "6 HOW MING ST TEXWOOD PLAZA, 52 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311560, 114.226546),
+            label: "72 HOI YUEN RD LLADRO CENTRE, 37 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311560, 114.226546),
+            label: "72 HOI YUEN RD LLADRO CENTRE, 37 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309231, 114.224636),
+            label: "12 HING YIP ST WING TAI CENTRE, 42 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309366, 114.224780),
+            label: "12 HING YIP ST WING TAI CENTRE, 42 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309137, 114.224492),
+            label: "14 HING YIP ST WING HING INDUSTRIAL BUILDING, 42 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308793, 114.225016),
+            label: "18 HING YIP ST MAI HING INDUSTRIAL BUILDING, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308904, 114.225164),
+            label: "16/18 HING YIP ST MAI HING INDUSTRIAL BUILDING, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308689, 114.224877),
+            label: "16/18 HING YIP ST MAI HING INDUSTRIAL BUILDING, 43 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312554, 114.224161),
+            label: "8 TSUN YIP LANE WORLD INTERESTS BUILDING, 41 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310839, 114.221605),
+            label: "51 TSUN YIP ST, 23 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315267, 114.214975),
+            label: "CLP ELECTRICITY SUB-STATION HOI BUN RD, 31 yrs, sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312882, 114.224298),
+            label: "410 KWUN TONG RD KWUN TONG VIEW, 21 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312885, 114.224292),
+            label: "410 KWUN TONG RD KWUN TONG VIEW, 21 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312509, 114.223725),
+            label: "C.L.&P. ELECTRICITY SUBSTATION 408 KWUN TONG RD, 49 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314389, 114.220045),
+            label: "378 KWUN TONG RD MILLENNIUM CITY 2 JOS TOWER, 24 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309949, 114.225999),
+            label: "16 SHING YIP ST EAST SUN INDUSTRIAL CENTRE, 44 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310080, 114.226242),
+            label: "16 SHING YIP ST EAST SUN INDUSTRIAL CENTRE, 44 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309806, 114.225810),
+            label: "16 SHING YIP ST EAST SUN INDUSTRIAL CENTRE, 45 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312520, 114.223551),
+            label: "ELECTRICAL SUBSTATION 408 KWUN TONG RD, 57 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313534, 114.220205),
+            label: "9 CHONG YIP ST, 19 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313581, 114.220254),
+            label: "9 CHONG YIP ST, 19 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314586, 114.219658),
+            label: "370 KWUN TONG RD MILLENNIUM CITY 3, 19 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314609, 114.219652),
+            label: "370 KWUN TONG RD MILLENNIUM CITY 3, 19 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312181, 114.225156),
+            label: "418 KWUN TONG RD APM MILLENNIUM CITY 5, 19 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312360, 114.225209),
+            label: "418 KWUN TONG RD BEA TOWER MILLENNIUM CITY 5, 19 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312129, 114.219664),
+            label: "163 WAI YIP ST HOTEL COZI.HARBOUR VIEW, 16 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312167, 114.219704),
+            label: "163 WAI YIP ST HOTEL COZI.HARBOUR VIEW, 16 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308194, 114.224936),
+            label: "83 HUNG TO RD EGL TOWER, 16 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308239, 114.224895),
+            label: "83 HUNG TO RD EGL TOWER, 16 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313294, 114.222012),
+            label: "392 KWUN TONG RD MILLENNIUM CITY 6, 16 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313392, 114.222067),
+            label: "392 KWUN TONG RD MILLENNIUM CITY 6, 16 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307603, 114.223849),
+            label: "223 WAI YIP ST MANULIFE FINANCIAL CENTRE TOWER B, 16 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307672, 114.223765),
+            label: "223 WAI YIP ST MANULIFE FINANCIAL CENTRE, 16 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308332, 114.223854),
+            label: "78 HUNG TO RD, 15 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308385, 114.223925),
+            label: "78 HUNG TO RD, 15 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314984, 114.216442),
+            label: "2 TAI YIP ST LINKCHART CENTRE, 15 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312514, 114.222258),
+            label: "100 HOW MING ST LANDMARK EAST AIA KOWLOON TOWER, 15 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312222, 114.223176),
+            label: "100 HOW MING ST LANDMARK EAST AXA TOWER, 15 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312511, 114.222304),
+            label: "100 HOW MING ST LANDMARK EAST AIA KOWLOON TOWER, 15 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310261, 114.222129),
+            label: "52 HUNG TO RD, 15 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311247, 114.219021),
+            label: "161 HOI BUN RD, 58 yrs, sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311683, 114.225648),
+            label: "79 HOI YUEN RD CROCODILE CENTER, 14 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311643, 114.225622),
+            label: "79 HOI YUEN RD CROCODILE CENTER, 14 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313395, 114.217200),
+            label: "108 WAI YIP ST C-BONS INTERNATIONAL CENTER, 14 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313395, 114.217140),
+            label: "108 WAI YIP ST C-BONS INTERNATIONAL CENTER, 14 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310931, 114.226323),
+            label: "7 SHING YIP ST LEGEND TOWER E-PLAZA, 13 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310857, 114.226231),
+            label: "7 SHING YIP ST LEGEND TOWER, 13 yrs, sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313012, 114.217385),
+            label: "133 HOI BUN RD MG TOWER, 12 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313022, 114.217383),
+            label: "133 HOI BUN RD MG TOWER, 12 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314214, 114.218991),
+            label: "38 CHONG YIP ST NINA HOTEL KOWLOON EAST, 12 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314163, 114.219051),
+            label: "38 CHONG YIP ST NINA HOTEL KOWLOON EAST, 12 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308304, 114.225560),
+            label: "55 KING YIP ST KING PALACE PLAZA, 11 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308291, 114.225581),
+            label: "55 KING YIP ST KING PALACE PLAZA, 11 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307956, 114.224174),
+            label: "84 HUNG TO RD DORSETT KWUN TONG HONG KONG, 11 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307969, 114.224210),
+            label: "84 HUNG TO RD DORSETT KWUN TONG HONG KONG, 11 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313261, 114.219052),
+            label: "22 HUNG TO RD ELITE CENTRE, 11 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313273, 114.219081),
+            label: "22 HUNG TO RD ELITE CENTRE, 11 yrs, sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312569, 114.224569),
+            label: "414 KWUN TONG RD ONE PACIFIC CENTRE, 11 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312674, 114.224617),
+            label: "414 KWUN TONG RD ONE PACIFIC CENTRE, 11 yrs, sub 21",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308027, 114.225249),
+            label: "49 KING YIP ST KIN SANG COMMERCIAL CENTRE, 10 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312442, 114.220724),
+            label: "35 HUNG TO RD FUN TOWER, 10 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309466, 114.220596),
+            label: "181 HOI BUN RD ONE HARBOUR SQUARE, 10 yrs, sub 35",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312678, 114.217685),
+            label: "RYKADAN CAPITAL TOWER 135 HOI BUN RD, 10 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308045, 114.225226),
+            label: "49 KING YIP ST KIN SANG COMMERCIAL CENTRE, 10 yrs, sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312720, 114.217727),
+            label: "135 HOI BUN RD RYKADAN CAPITAL TOWER, 10 yrs, sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312493, 114.220766),
+            label: "35 HUNG TO RD FUN TOWER, 10 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309420, 114.220630),
+            label: "181 HOI BUN RD ONE HARBOUR SQUARE, 10 yrs, sub 35",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310326, 114.225849),
+            label: "1 SAN WAI ST STAR RUBY, 9 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310352, 114.225825),
+            label: "10 SHING YIP ST T G PLACE, 9 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311042, 114.222794),
+            label: "56 TSUN YIP ST COS CENTRE, 8 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311097, 114.222750),
+            label: "56 TSUN YIP ST COS CENTRE, 8 yrs, sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313738, 114.219954),
+            label: "19 CHONG YIP ST MONTERY PLAZA, 8 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.313782, 114.219996),
+            label: "19 CHONG YIP ST MONTERY PLAZA, 8 yrs, sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315523, 114.214850),
+            label: "324 KWUN TONG RD LICO INDUSTRIAL BUILDING, 8 yrs, sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315918, 114.214430),
+            label: "83 HOI BUN RD ONE BAY EAST MANULIFE TOWER, 8 yrs, sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316376, 114.214897),
+            label: "23 D'AGUILAR ST BUTTERFLY ON LKF BOUTIQUE HOTEL CENTRAL, 7 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316366, 114.214892),
+            label: "93 Wai Yip Street, Kwun Tong, 7 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309619, 114.221086),
+            label: "180 WAI YIP ST, 6 yrs, sub 35",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309579, 114.221133),
+            label: "180 WAI YIP ST, 6 yrs, sub 35",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308851, 114.225828),
+            label: "29 HING YIP ST, 5 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.308851, 114.225796),
+            label: "29 HING YIP ST, 5 yrs, sub 26",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315031, 114.217164),
+            label: "Manulife Place 348 KWUN TONG RD, 5 yrs, sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312757, 114.223056),
+            label: "97 HOW MING ST, 5 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312698, 114.223032),
+            label: "97 HOW MING ST, 5 yrs, sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310614, 114.221288),
+            label: "Podium 43&45 TSUN YIP ST, 5 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310613, 114.221288),
+            label: "Tower 43&45 TSUN YIP ST, 5 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314098, 114.216412),
+            label: "PODIUM, 123 HOI BUN RD, 4 yrs, sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314179, 114.216432),
+            label: "TOWER, 123 HOI BUN RD, 4 yrs, sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.310458, 114.221783),
+            label: "G/F: WORKSHOPS, ENTRANCE LOBBY, CARETAKER OFFICE, LOADING & UNLOADING AREA 1/F-16/F: WORKSHOPS 46 TSUN YIP ST, 3 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.311283, 114.220554),
+            label: "INDUSTRIAL BUILDING 183 WAI YIP ST, 3 yrs, sub 15",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309683, 114.221979),
+            label: "LEVEL0.50:UNDERGROUND SPRINKLER PUMP ROOM G/F:ENTRANCE LIFT LOBBY, LOADING & UNLOADING SPACES, REFUSE STORAGE, MATERIAL RECOVERY CHAMBER, 1/F: ONE WORKSHOP, PLANT ROOMS 2/F:ONE WORKSHOP,CAREPARKING,3/F:ONE WORKSHOP 207 WAI YIP ST, 2 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.309647, 114.221945),
+            label: "5/F,6/F,8/F-10/F, 12/F-25/F: ONE WORKSHOP 7/F: 4 WORKSHOPS 11/F:REFUGE FLOOR CUM SKY GARDEN 207 WAI YIP ST, 2 yrs, sub 19",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314574, 114.219263),
+            label: "B3-B1/F:CARPARKING/MOTOR CYCLE PARKING SPACES G/F:SHOP,MAIN ENTRANCE LOBBY,UN/LOADING AREAS REFUSE STORAGE,MATERIAL RECOVERY CHAMBER 1/F:SHOPS,SHOPPING ARCADE,OFFICE LOBBY, 2/F:PODIUM GARDEN 368 KWUN TONG RD, 1 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.314615, 114.219320),
+            label: "3-20/F:OFFICES 21/F:REFUGE FLOOR,PLANT ROOM 22-32/F:OFFICES 33-37/F: OFFICE 368 KWUN TONG RD, 1 yrs, sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.315314, 114.215161),
+            label: "A 2-STOREY ELECTRICITY SUBSTATION FOR NON-DOMESTIC USE HOI BUN RD, 1 yrs, sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.316136, 114.215502),
+            label: "G/F:ONE WORKSHOP,ENTRANCE HALL,TRANSFORMER ROOM;1/F:ONE WORKSHOP,PLANT ROOMS 2/F:ONE WORKSHOP, PLANT ROOM 3/F-15/F:ONR WORKSHOP PER FLOOR 21 TAI YIP ST, 1 yrs, sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312740, 114.221204),
+            label: "B2-4/F:CAR/MOTOR CYCLE PARKING SPACES;B1/F: CARPARKING SPACES,TAXI LAY BY;G/F--L3F:SHOP, ATCADES,EXPRESS LIFT LOBBY;L4-L7/F:SHOPS, CINMEAS,ARCADES;L8-9/F:SHOPS;L10/F:OFFICE ENTRANCE LOBBIES;L10M-L11/F:PLANT ROOMS 98 HOW MING ST, 1 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312652, 114.221496),
+            label: "TOWER 1 L12/F:2 OFFICES, PLANT ROOMS L15-L18/F:1 OFFICE, PLANT ROOM L19/F:REFUGE FLOOR L20-36/F:1 OFFICE,PLANT ROOM 98 HOW MING ST, 1 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.312993, 114.220939),
+            label: "TOWER 2 L12-18/F: 1 OFFICE,PLANT ROOM L19/F:REFUGE FLOOR L20-36/F:1 OFFICE 98 HOW MING ST, 1 yrs, sub 16",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307572, 114.224349),
+            label: "B1-3/F:CARPARKING/MOTOR CYCLE PARKING SPACES G/F:RETAIL,ENTRANCE LOBBY,LOADING/UNLOADING AREAS,LIGHT GOOD VEHICLE PARKING BAYS,REFUSE STORAGE,MATERIAL RECOVERY CHAMBER 1/F:RETAIL,TRANSFORMER ROOM 41 KING YIP ST, 1 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.307507, 114.224395),
+            label: "2/F:RETAIL;3-7/F:1 OFFICE;8/F:COMMUNAL SKY GARDEN CUM REFUGE FLOOR;9-16/F:1 OFFICE; 17/F:PLANT ROOMS,18-28/F:1 OFFICE 29/F:6 OFFICES;30/F:2 OFFICES 31-32/F:1 OFFICE 41 KING YIP ST, 1 yrs, sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334354, 114.194928),
+            label: "52 YAN OI ST, 59 yrs, Sub 22",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334696, 114.194536),
+            label: "55 YIN HING ST PO HING MANSION, 58 yrs, Sub 18",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335286, 114.194471),
+            label: "64 YIN HING ST NEW LAI KING BUILDING, 59 yrs, Sub 17",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335613, 114.194643),
+            label: "58 YIN HING ST YIN HING BUILDING, 59 yrs, Sub 11",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336300, 114.194984),
+            label: "32 YIN HING ST SAN PO KONG MANSION, 56 yrs, Sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334988, 114.195981),
+            label: "33 SHUNG LING ST SAN PO KONG PLAZA, 27 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335178, 114.195967),
+            label: "33 SHUNG LING ST SAN PO KONG PLAZA BLK 1, 27 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334935, 114.195787),
+            label: "33 SHUNG LING ST SAN PO KONG PLAZA BLK 2, 27 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334605, 114.195836),
+            label: "89 SHUNG LING ST SHUNG LING BUILDING, 52 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334727, 114.195651),
+            label: "67 SHUNG LING ST SHUNG LING BUILDING(BLOCK A), 52 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335936, 114.196019),
+            label: "2B SHUNG LING ST, 59 yrs, Sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335532, 114.195739),
+            label: "34A SHUNG LING ST MAN YUE MANSION, 59 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335265, 114.195536),
+            label: "42 SHUNG LING ST, 59 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335157, 114.195419),
+            label: "48 SHUNG LING ST, 55 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334181, 114.195901),
+            label: "94A SHUNG LING ST YUE YEE MANSION, 59 yrs, Sub 23",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336249, 114.197829),
+            label: "17 SAM CHUK ST KAI YIP FACTORY BUILDING, 59 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335944, 114.197500),
+            label: "10 SAM CHUK ST JING WAH BUILDING, 58 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335733, 114.197896),
+            label: "12/14 SAM CHUK ST WING SUM 2ND INDUSTRIAL BUILDING, 51 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335711, 114.197887),
+            label: "12/14 SAM CHUK ST WING SUM 2ND INDUSTRIAL BUILDING, 51 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335309, 114.198028),
+            label: "35 TSEUK LUK ST VICTORIOUS FACTORY BUILDING BLK D, 53 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334994, 114.198367),
+            label: "22 SAM CHUK ST KAI TAK FACTORY BUILDING STAGE 1, 60 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336102, 114.195613),
+            label: "7 YIN HING ST TONG SENG MANSION, 59 yrs, Sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335948, 114.195198),
+            label: "19A YIN HING ST, 58 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335832, 114.195528),
+            label: "24A KAM WING ST CAMBRIDGE BUILDING, 59 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334950, 114.194834),
+            label: "24 YAN OI ST YAN OI BUILDING, 59 yrs, Sub 18",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338655, 114.199717),
+            label: "7 NG FONG ST WAH MOW FACTORY BUILDING, 59 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338566, 114.199891),
+            label: "206/208 CHOI HUNG RD & 9/11 NG FONG ST SHING KING INDUSTRIAL BUILDING, 54 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338362, 114.200292),
+            label: "21 NG FONG ST KA WING FACTORY BUILDING, 58 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338255, 114.200498),
+            label: "25 NG FONG ST THE WILLIAM INDUSTRIAL BUILDING, 54 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338150, 114.200706),
+            label: "29 NG FONG ST WING CHAI INDUSTRIAL BUILDING, 57 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337990, 114.200881),
+            label: "33 NG FONG ST WING HIN FACTORY BUILDING, 54 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338054, 114.199506),
+            label: "8 NG FONG ST LEE KA FACTORY BUILDING, 54 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337932, 114.199704),
+            label: "10 NG FONG ST NEW TREASURE CENTRE, 28 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337979, 114.199729),
+            label: "10 NG FONG ST NEW TREASURE CENTRE, 28 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337805, 114.199898),
+            label: "12 NG FONG ST LEE KING INDUSTRIAL BUILDING BLK B, 54 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337698, 114.200109),
+            label: "18 NG FONG ST LEAD ON INDUSTRIAL BUILDING, 58 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337580, 114.200310),
+            label: "22A NG FONG ST VAN FAT FACTORY BUILDING, 58 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337416, 114.200480),
+            label: "26 NG FONG ST WING SHING INDUSTRIAL BUILDING, 44 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337249, 114.200691),
+            label: "23 SZE MEI ST LEE SUM FACTORY BUILDING, 57 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336217, 114.196756),
+            label: "25 TSEUK LUK ST WAH HING INDUSTRIAL MANSIONS, 58 yrs, Sub 9",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335801, 114.196378),
+            label: "58 TSEUK LUK ST WEI SHUN MANSION, 59 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334227, 114.196526),
+            label: "93 SHUNG LING ST ON KEUNG BUILDING, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334098, 114.196623),
+            label: "97 SHUNG LING ST ON FOOK BUILDING, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334875, 114.198085),
+            label: "41 TSEUK LUK ST, 57 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335673, 114.196599),
+            label: "70 TSEUK LUK ST, 60 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335497, 114.196876),
+            label: "82 TSEUK LUK ST TONG SING MANSION, 60 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335353, 114.197081),
+            label: "72 TSEUK LUK ST TONG SING MANSION, 58 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335073, 114.197200),
+            label: "86 TSEUK LUK ST & 28 HONG KEUNG ST HONG KING BUILDING, 51 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335061, 114.197143),
+            label: "86 TSEUK LUK ST HONG KING BUILDING, 51 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335009, 114.197527),
+            label: "98 TSEUK LUK ST WEALTH COURT, 24 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335027, 114.197546),
+            label: "98 TSEUK LUK ST WEALTH COURT, 24 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334737, 114.197573),
+            label: "118 TSEUK LUK ST YUE FU MANSION, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334581, 114.197630),
+            label: "120 TSEUK LUK ST CHEONG TAI BUILDING, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338151, 114.198105),
+            label: "5 SHEUNG HEI ST FUK WO INDUSTRIAL BUILDING, 57 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338037, 114.197996),
+            label: "7 SHEUNG HEI ST YIP FUNG INDUSTRIAL BUILDING, 40 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337601, 114.197673),
+            label: "17 SHEUNG HEI ST SUCCESS INDUSTRIAL BUILDING, 32 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337607, 114.197656),
+            label: "17 SHEUNG HEI ST SUCCESS INDUSTRIAL BUILDING, 32 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337416, 114.197529),
+            label: "19 SHEUNG HEI ST SHEUNG HEI FACTORY BUILDING, 58 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338516, 114.198601),
+            label: "14 TAI YAU ST STARTEX INDUSTRIAL BUILDING, 58 yrs, Sub 1",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338656, 114.198325),
+            label: "6 SHEUNG HEI ST KAR CHAU INDUSTRIAL BUILDING, 55 yrs, Sub 1",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334270, 114.196948),
+            label: "65 KING FUK ST, 59 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334386, 114.197176),
+            label: "69 KING FUK ST, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334423, 114.197259),
+            label: "73 KING FUK ST, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334459, 114.197341),
+            label: "77 KING FUK ST, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334493, 114.197423),
+            label: "81 KING FUK ST, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337873, 114.198879),
+            label: "3 LUK HOP ST, 59 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337810, 114.198978),
+            label: "5 LUK HOP ST LEE WAN FACTORY BUILDING, 59 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337669, 114.199217),
+            label: "CHUNG KAI FACTORY BUILDING 9 LUK HOP ST, 57 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337549, 114.199385),
+            label: "11/13 LUK HOP ST ON LOONG FACTORY BUILDING BLK D, 58 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337061, 114.200148),
+            label: "23 LUK HOP ST MAX TRADE CENTRE, 26 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337061, 114.200148),
+            label: "23 LUK HOP ST MAX TRADE CENTRE, 26 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336964, 114.200397),
+            label: "25/27 LUK HOP ST GALAXY FACTORY BUILDING, 52 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336708, 114.200645),
+            label: "29 LUK HOP ST WANG FAI INDUSTRIAL BUILDING, 42 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336745, 114.200640),
+            label: "29 LUK HOP ST WANG FAI INDUSTRIAL BUILDING, 42 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337409, 114.198578),
+            label: "27 TAI YAU ST CHUNG HING INDUSTRIAL MANSION, 60 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337071, 114.199147),
+            label: "6 LUK HOP ST, 59 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336860, 114.199565),
+            label: "8 LUK HOP ST LUK HOP INDUSTRIAL BUILDING, 41 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336831, 114.199467),
+            label: "8 LUK HOP ST LUK HOP INDUSTRIAL BUILDING, 41 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336967, 114.198443),
+            label: "1 PAT TAT ST PAT TAT INDUSTRIAL BUILDING, 40 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336967, 114.198443),
+            label: "1 PAT TAT ST PAT TAT INDUSTRIAL BUILDING, 40 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336823, 114.198667),
+            label: "3/5 PAT TAT ST ON TAT INDUSTRIAL BUILDING BLK D, 59 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336680, 114.198890),
+            label: "9 PAT TAT ST WELL TECH CENTRE, 26 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336680, 114.198876),
+            label: "9 PAT TAT ST WELL TECH CENTRE, 26 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336569, 114.199163),
+            label: "7 TSAT PO ST LEE CHUNG INDUSTRIAL BUILDING, 57 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337937, 114.198803),
+            label: "23 TAI YAU ST PO SHING INDUSTRIAL BUILDING, 59 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337102, 114.198257),
+            label: "29 TAI YAU ST WINNING CENTRE, 26 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336656, 114.198020),
+            label: "31 TAI YAU ST PERFECT INDUSTRIAL BUILDING, 38 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336627, 114.197983),
+            label: "31 TAI YAU ST PERFECT INDUSTRIAL BUILDING, 38 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336364, 114.197684),
+            label: "33 TAI YAU ST CANNY INDUSTRIAL BUILDING, 34 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336406, 114.197695),
+            label: "33 TAI YAU ST CANNY INDUSTRIAL BUILDING, 34 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338886, 114.198810),
+            label: "2 TAI YAU ST WONG KING INDUSTRIAL BUILDING, 53 yrs, Sub 1",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338121, 114.198442),
+            label: "16 TAI YAU ST CHEONG TAI INDUSTRIAL BUILDING, 58 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337984, 114.198364),
+            label: "20 TAI YAU ST, 58 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337548, 114.198039),
+            label: "28 TAI YAU ST, 58 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337059, 114.197474),
+            label: "32 TAI YAU ST LAURELS INDUSTRIAL CENTRE, 32 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337046, 114.197495),
+            label: "32 TAI YAU ST LAURELS INDUSTRIAL CENTRE, 32 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336705, 114.197219),
+            label: "34 TAI YAU ST NEW TECH PLAZA, 27 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336683, 114.197195),
+            label: "34 TAI YAU ST NEW TECH PLAZA, 27 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335728, 114.197348),
+            label: "35 TAI YAU ST EFFICIENCY HOUSE BLK D, 58 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334600, 114.197213),
+            label: "33 HONG KEUNG ST, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334426, 114.196853),
+            label: "49 HONG KEUNG ST SUNG ON MANSION, 60 yrs, Sub 24",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334776, 114.196319),
+            label: "32/34 HONG KEUNG ST HONG KEUNG MANSION, 52 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334883, 114.196380),
+            label: "34 HONG KEUNG ST HONG KEUNG MANSION BLK A, 52 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336440, 114.198474),
+            label: "3 TSAT PO ST CHIN FAT FACTORY BUILDING BLK J, 58 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337016, 114.195541),
+            label: "15 TSEUK LUK ST HO LAP COLLEGE, 25 yrs, Sub 3",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336330, 114.195578),
+            label: "3 YIN HING ST WING LOK BUILDING, 59 yrs, Sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336212, 114.195759),
+            label: "34 TSEUK LUK ST, 59 yrs, Sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335511, 114.195030),
+            label: "29 YIN HING ST FOO YUEN BUILDING, 59 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335094, 114.194716),
+            label: "49 YIN HING ST KAI SAN MANSION, 61 yrs, Sub 18",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334858, 114.194549),
+            label: "53 YIN HING ST, 60 yrs, Sub 18",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333871, 114.195781),
+            label: "9 NING YUEN ST YUE XIU PLAZA, 28 yrs, Sub 23",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333793, 114.195641),
+            label: "9 NING YUEN ST YUE XIU PLAZA SAU MING COURT (BLK 1), 28 yrs, Sub 23",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333877, 114.195931),
+            label: "9 NING YUEN ST YUE XIU PLAZA SAU WAH COURT (BLK 2), 28 yrs, Sub 23",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334117, 114.195295),
+            label: "20 NING YUEN ST THE STANDARD CHARTERED BANK BUILDING SAN PO KONG, 59 yrs, Sub 22",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335335, 114.195129),
+            label: "11 FOO YUEN ST ON LUEN BUILDING, 59 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335251, 114.195263),
+            label: "19A FOO YUEN ST, 59 yrs, Sub 12",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335368, 114.196241),
+            label: "1 YI LUN ST PAK LOK BUILDING, 53 yrs, Sub 13",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336148, 114.195857),
+            label: "38 TSEUK LUK ST, 59 yrs, Sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336086, 114.195955),
+            label: "42A TSEUK LUK ST, 59 yrs, Sub 8",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334090, 114.197909),
+            label: "COGNITIO COLLEGE 96 KING FUK ST, 53 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334244, 114.198510),
+            label: "702 PRINCE EDWARD RD E TAI KING INDUSTRIAL BUILDING, 55 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334403, 114.198727),
+            label: "104 KING FUK ST NEW TREND CENTRE, 29 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334403, 114.198728),
+            label: "704 PRINCE EDWARD RD E NEW TREND CENTRE, 29 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334496, 114.198976),
+            label: "706 PRINCE EDWARD RD E PRINCE INDUSTRIAL BUILDING, 50 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334410, 114.199013),
+            label: "706 PRINCE EDWARD RD E PRINCE INDUSTRIAL BUILDING, 50 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334565, 114.199243),
+            label: "710 PRINCE EDWARD RD E CHIU TAT FACTORY BUILDING, 54 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334734, 114.199682),
+            label: "714 PRINCE EDWARD RD E CHIAP KING INDUSTRIAL BUILDING, 52 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337692, 114.199053),
+            label: "5 LUK HOP ST LEE WAN FACTORY BUILDING, 56 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334166, 114.198240),
+            label: "698 PRINCE EDWARD RD E STELUX HOUSE, 25 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334166, 114.198240),
+            label: "698 PRINCE EDWARD RD E STELUX HOUSE, 25 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336813, 114.195664),
+            label: "15 TSEUK LUK ST HO LAP COLLEGE, 32 yrs, Sub 3",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336673, 114.195664),
+            label: "15 TSEUK LUK ST HO LAP COLLEGE, 54 yrs, Sub 3",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336541, 114.195157),
+            label: "32 YIN HING ST SAN PO KONG MANSION, 56 yrs, Sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336365, 114.195023),
+            label: "32 YIN HING ST SAN PO KONG MANSION, 56 yrs, Sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336252, 114.194830),
+            label: "SAN PO KONG MANSION BLK C 92/98 CHOI HUNG RD, 56 yrs, Sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336102, 114.194723),
+            label: "32 YIN HING ST SAN PO KONG MANSION, 56 yrs, Sub 7",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337225, 114.198898),
+            label: "27 TAI YAU ST CHUNG HING INDUSTRIAL MANSION, 59 yrs, Sub 5",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334695, 114.196247),
+            label: "34 HONG KEUNG ST HONG KEUNG MANSION BLK A, 52 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334485, 114.196023),
+            label: "85 SHUNG LING ST SHUNG LING BUILDING(BLOCK B), 52 yrs, Sub 20",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336922, 114.200367),
+            label: "27 LUK HOP ST GALAXY FACTORY BUILDING, 52 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338771, 114.199498),
+            label: "1 TAI YAU ST MIDAS PLAZA, 16 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338729, 114.199514),
+            label: "1 TAI YAU ST MIDAS PLAZA, 16 yrs, Sub 2",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337840, 114.197863),
+            label: "9 SHEUNG HEI ST WIN PLAZA, 15 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337872, 114.197838),
+            label: "9 SHEUNG HEI ST WIN PLAZA, 15 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334671, 114.199455),
+            label: "712 PRINCE EDWARD RD E AIA FINANCIAL CENTRE, 14 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.334561, 114.199504),
+            label: "712 PRINCE EDWARD RD E AIA FINANCIAL CENTRE, 14 yrs, Sub 25",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333540, 114.196857),
+            label: "638 PRINCE EDWARD RD E MIKIKI, 13 yrs, Sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333228, 114.196241),
+            label: "638 PRINCE EDWARD RD E THE LATITUDE TOWER 1B, 13 yrs, Sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333223, 114.196587),
+            label: "638 PRINCE EDWARD RD E THE LATITUDE TOWER 2B, 13 yrs, Sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333442, 114.196950),
+            label: "638 PRINCE EDWARD RD E THE LATITUDE TOWER 6, 13 yrs, Sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333651, 114.197237),
+            label: "638 PRINCE EDWARD RD E THE LATITUDE TOWER 7, 13 yrs, Sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.333864, 114.197486),
+            label: "638 PRINCE EDWARD RD E THE LATITUDE TOWER 8, 13 yrs, Sub 27",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337343, 114.199730),
+            label: "19 LUK HOP ST PENTAHOTEL HONG KONG KOWLOON, 11 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337300, 114.199694),
+            label: "19 LUK HOP ST PENTAHOTEL HONG KONG KOWLOON, 11 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338186, 114.199208),
+            label: "MAXGRAND PLAZA 3 TAI YAU ST, 7 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338219, 114.199170),
+            label: "MAXGRAND PLAZA 3 TAI YAU ST, 7 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338269, 114.198188),
+            label: "3 TAI YAU ST MAXGRAND PLAZA, 7 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.338269, 114.198210),
+            label: "1 SHEUNG HEI ST ON TIN CENTRE, 7 yrs, Sub 4",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335529, 114.197745),
+            label: "33 TSEUK LUK ST, 6 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.335522, 114.197689),
+            label: "33 TSEUK LUK ST, 6 yrs, Sub 14",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.337159, 114.200007),
+            label: "G/F:ONE WORKSHOP,CARPARKIHG SPACE,REFUSE STORAGE,MATERIAL RECOVERY CHAMBER 1/F:ONEWORKSHOP,ENTRANCE LOBBY,OFFICE 2/F-5/F,7/F-23/F:ONE WORKSHOP, 6/F: PLANT ROOM 21 LUK HOP ST, 1 yrs, Sub 6",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336157, 114.198089),
+            label: "CARPARKING SPACES, LOADING AND UNLOADING AREA FOR NON-DOMESTIC USE 1 TSAT PO ST, 1 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.336171, 114.198174),
+            label: "WORKSHOPS FOR NON-DOMESTIC USE 1 TSAT PO ST, 1 yrs, Sub 10",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>
